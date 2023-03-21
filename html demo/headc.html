@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>from臭宝儿</title>
+  <style>
+    body{
+        background: url("img/26.jpg") no-repeat center center fixed;
+        background-size: cover;
+    }
+    .demo1{
+        width: 100%;
+        height: 100%;
+    }
+    .A1{
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        left: 600px;
+        top: 200px;
+    }
+  </style>
+    <script type="text/javascript">
+        function startit(){
+            var music = document.getElementById('videoID');
+            music.paused=false;
+            music.play();
+        }
+    </script>
+</head>
+<body>
+<audio id="videoID" width="10px" height="10px" autoplay loop>
+    <source src="img/ground.mp3">
+</audio>
+
+  <div class="demo1">
+      <a class="A1" href="img/demo1.html" target="_blank">
+          <img src="img/27.jpg" onclick="startit()">
+      </a>
+  </div>
+
+</body>
+</html>

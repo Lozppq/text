@@ -1,0 +1,335 @@
+body{
+    background: url("30.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+#wai{
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#flotp{
+    position: absolute;
+    top: 160px;
+    left: 150px;
+    width: 1270px;
+    height: 531px;
+}
+#flot{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    object-fit: fill;
+}
+#vpare{
+    height: 691px;
+    width: 300px;
+    position: absolute;
+    left: 0;
+    border-style: solid;
+    border-width: 10px 10px 10px 0;
+    border-color: #adff1d;
+}
+
+#vpare1{
+    height: 691px;
+    width: 300px;
+    position: absolute;
+    left: 1226px;
+    right: 0;
+    border-style: solid;
+    border-width: 10px 0 10px 10px;
+    border-color: #adff1d;
+}
+
+#vid{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    object-fit: fill;
+}
+
+#vid1{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    object-fit: fill;
+}
+
+#firework{
+    position: absolute;
+    left: 300px;
+    width: 936px;
+    height: 200px;
+    top: 0;
+    border-style: solid none dotted none;
+    border-width: 10px 0 10px 0;
+    border-color: #adff1d blue #afacff blue;
+}
+#firework video{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    object-fit: fill;
+}
+#fire1{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 312px;
+    height: 200px;
+}
+#fire2{
+    position: absolute;
+    left: 312px;
+    top: 0;
+    width: 312px;
+    height: 200px;
+}
+#fire3{
+    position: absolute;
+    left: 624px;
+    top: 0;
+    width: 312px;
+    height: 200px;
+}
+
+
+#wrap span{
+    display: block;
+    width:100px;
+    height:100px;
+    background-color: rgb(10, 118, 212);
+    position: absolute;
+    top:50px;
+    left:50px;
+}
+@keyframes rotate{
+    from{
+        transform: rotateX(0deg)  rotateY(0deg);
+    }
+    to{
+        transform: rotateX(360deg) rotateY(360deg);
+    }
+}
+#wrap{
+    position: absolute;
+    left: 470px;
+    width: 100px;
+    top: 50px;
+    height:100px;
+    margin:300px auto;
+    animation: rotate 10s infinite;
+    transform-style:preserve-3d ;
+}
+
+#wrap span img{
+    width:100px;
+    height:100px;
+}
+
+#in-front{
+    transform: translateZ(50px);
+}
+
+#in-back{
+    transform: translateZ(-50px);
+}
+
+#in-left{
+    transform: rotateY(90deg)  translateZ(50px);
+}
+
+#in-right{
+    transform:  rotateY(-90deg) translateZ(50px);
+}
+
+#in-top{
+    transform:   rotateX(90deg) translateZ(50px);
+}
+
+#in-bottom{
+    transform:  rotateX(-90deg) translateZ(50px);
+}
+
+#wrap div{
+    width:200px;
+    height:200px;
+    background-color: #000000;
+    position: absolute;
+}
+#wrap div img{
+    width:200px;
+    height:200px;
+}
+
+#out-front{
+    transform: translateZ(100px);
+}
+
+#out-back{
+    transform: translateZ(-100px);
+}
+
+#out-left{
+    transform: rotateY(90deg)  translateZ(100px);
+}
+
+#out-right{
+    transform:  rotateY(-90deg) translateZ(100px);
+}
+
+#out-top{
+    transform:   rotateX(90deg) translateZ(100px);
+}
+
+#out-bottom{
+    transform:  rotateX(-90deg) translateZ(100px);
+}
+
+#wrap:hover #out-front{
+    transform: translateZ(150px);
+}
+
+#wrap:hover #out-left{
+    transform: rotateY(90deg)  translateZ(150px);
+}
+
+#wrap:hover #out-right{
+    transform:  rotateY(-90deg) translateZ(150px);
+}
+
+#wrap:hover #out-back{
+    transform: translateZ(-150px);
+}
+
+#wrap:hover #out-top{
+    transform:   rotateX(90deg) translateZ(150px);
+}
+#wrap:hover #out-bottom{
+    transform:  rotateX(-90deg) translateZ(150px);
+}
+
+
+
+#wrap1 span{
+    display: block;
+    width:100px;
+    height:100px;
+    background-color: rgb(10, 118, 212);
+    position: absolute;
+    top:50px;
+    left:50px;
+}
+
+#wrap1{
+    position: absolute;
+    left: 870px;
+    width: 100px;
+    top: 50px;
+    height:100px;
+    margin:300px auto;
+    animation: rotate 10s infinite;
+    transform-style:preserve-3d ;
+}
+
+#wrap1 span img{
+    width:100px;
+    height:100px;
+}
+
+#in-front1{
+    transform: translateZ(50px);
+}
+
+#in-back1{
+    transform: translateZ(-50px);
+}
+
+#in-left1{
+    transform: rotateY(90deg)  translateZ(50px);
+}
+
+#in-right1{
+    transform:  rotateY(-90deg) translateZ(50px);
+}
+
+#in-top1{
+    transform:   rotateX(90deg) translateZ(50px);
+}
+
+#in-bottom1{
+    transform:  rotateX(-90deg) translateZ(50px);
+}
+
+#wrap1 div{
+    width:200px;
+    height:200px;
+    background-color: brown;
+    position: absolute;
+}
+#wrap1 div img{
+    width:200px;
+    height:200px;
+}
+
+#out-front1{
+    transform: translateZ(100px);
+}
+
+#out-back1{
+    transform: translateZ(-100px);
+}
+
+#out-left1{
+    transform: rotateY(90deg)  translateZ(100px);
+}
+
+#out-right1{
+    transform:  rotateY(-90deg) translateZ(100px);
+}
+
+#out-top1{
+    transform:   rotateX(90deg) translateZ(100px);
+}
+
+#out-bottom1{
+    transform:  rotateX(-90deg) translateZ(100px);
+}
+
+#wrap1:hover #out-front1{
+    transform: translateZ(150px);
+}
+
+#wrap1:hover #out-left1{
+    transform: rotateY(90deg)  translateZ(150px);
+}
+
+#wrap1:hover #out-right1{
+    transform:  rotateY(-90deg) translateZ(150px);
+}
+
+#wrap1:hover #out-back1{
+    transform: translateZ(-150px);
+}
+
+#wrap1:hover #out-top1{
+    transform:   rotateX(90deg) translateZ(150px);
+}
+#wrap1:hover #out-bottom1{
+    transform:  rotateX(-90deg) translateZ(150px);
+}
+
